@@ -1,92 +1,260 @@
+
 body
 {
-	background-image: url(back1.jpg);
-}
-h1
-{
-	color:rgba(177,200,245,1);
-	text-align: center;
-}
-img
-{
-	max-height: 250px;
-	border-radius: 100px;
+   
+      height: 780px;
+    background:repeating-linear-gradient( white,rgb(213,216,233));
+    /*background:url(img1.png);
+    background-size: 1000000px 90px;
+    background-repeat: no-repeat;*/
+    max-height: 1300px;
 
 }
-img:hover
+
+.a
 {
-	-webkit-filter:grayscale(100%);
-	-webkit-transform:scale(1.5);
-		-moz-transform:scale(1.5);
-			-ms-transform:scale(1.5);
-				-o-transform:scale(1.5);
-	transform:scale(1.5);
-}
-p
-{
-	color: white;
-	width: 550px;
-	background-color: rgba(255,0,0,0.05);
-	padding: 10px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	word-spacing: 5px;
 	position: absolute;
-	top: 170px;
-	left: 430px;
-	line-height: 170%;
+	top:0px;
+	left: 0px;
+}
+.b
+{
+	position: absolute;
+	top: 20px;
+	left: 800px;
+	color: white;
+}
+.c
+{
+	position: absolute;
+	top: 20px;
+	left: 1000px;
+	color: white;
+}
+.d
+{
+	position: absolute;
+	top: 40px;
+	left: 1200px;
+}
+.e
+{
+	position: absolute;
+	top: 98px;
+	left: 0px;
+}
+.f
+{
+	position: absolute;
+	top: 260px;
+	left: 804px;
+	height: 300%;	
+}
+
+
+h1
+{
+	font-size: 250%;
+	min-width: 400px;
+	min-height: 300px;
+	position: absolute;
+	top: 100px;
+	left: 800px;
+}
+h2
+{
+	font-size: 150%;
+	position: absolute;
+	top: 160px;
+	font-weight: normal;
+	left: 804px;
+	min-width: 400px;
+	min-height: 300px;
+}
+h3
+{
+	font-size: 120%;
+	position: absolute;
+	top: 430px;
+	font-weight: normal;
+	left: 804px;
+	min-width: 400px;
+	min-height: 300px;
+}
+.g
+{
+	padding: 8px;
+	font-size: 110%;
+}
+.h
+{
+	position: absolute;
+	top: 260px;
+	left: 1054px;
+	
+}
+.i
+{
+	position: absolute;
+	top: 325px;
+	left: 804px;
+	width: 120px;
+}
+.j
+{
+	position: absolute;
+	top: 390px;
+	left: 804px;
+}
+.k
+{
+	position: absolute;
+	top: 485px;
+	left: 804px;
+}
+.z1
+{
+	position: absolute;
+	top: 485px;
+	left: 880px;
+}
+.z2
+{
+	position: absolute;
+	top: 485px;
+	left: 964px;
+}
+.aaa
+{
+	padding: 7px;
+}
+.ab
+{
+	color: black;
+	width: 400px;
+	font-size: 80%;
+	position: absolute;
+	left: 804px;
+	top: 560px;
+}
+.z4
+{
+	position: absolute;
+	top: 640px;
+	left: 804px;
+	border-radius: 25px;
+}
+.z3
+{
+	background-color: green;
+	font-size: 150%;
+	color: white;
+	padding: 8px;
+	border-radius: 8px;
+}
+.z5
+{
+	width: 350px;
+	position: absolute;
+	font-weight: bold;
+	top: 680px;
+	left: 804px;
+	color: black;
 }
 a:link
 {
-	color: red;
+	color: blue;
 	text-decoration: none;
+	
+	
 }
 a:hover
 {
-	color:hotpink;
 	text-decoration: underline;
+	color:black;
+}
+.z6
+{
+	position: absolute;
+	left: 0px;
+	top: 730px;
+}
+.y1
+{
+	position: absolute;
+	left: 150px;
+	top: 750px;
+	font-weight: bold;
+}
+.y2
+{
+	position: absolute;
+	left: 350px;
+	top: 750px;font-weight: bold;
+}
+.y3
+{
+	position: absolute;
+	left: 550px;
+	top: 750px;font-weight: bold;
+}
+.y4
+{
+	position: absolute;
+	left: 750px;
+	top: 750px;font-weight: bold;
+}
+.y5
+{
+	position: absolute;
+	left: 950px;
+	top: 750px;font-weight: bold;color: blue;;
 }
 a:visited
 {
 	color:brown;
 }
-
-h3
+.y6
 {
-
-	color:rgba(200,177,245,1);
 	position: absolute;
-	top: 130px;
-	left: 630px;
-	
-	}
-	table
-	{
-		color:red;
-		background-color: rgba(0,255,255,0.3);
-		font-weight: bold;
-		text-align: center;
-	}
-
-	.b
-	{
-		width:100%;
-		height: 15%;
-		color:red;
-		background-color: rgba(0,255,0,0.35);
-		position: absolute;
-		top: 580px;
-		transform-style: preserve-3d;
-	}
-	h4
-	{
+	left: 1150px;
+	top: 750px;font-weight: bold;
+}
+h4
+{
 	position: absolute;
-	top:580px;
-	left: 630px;
-	color: red;	
-	}
-	.c
-	{
-	text-align: center;
-	color: red;		
-	}
+	top: 820px;
+	left: 150px;
+	font-weight: normal;
+	font-size: 80%;
+}
+.y7
+{
+	color: white;
+	position: absolute;
+	top: 65px;
+	left: 1000px;
+}
+.y7:link
+{
+	color: blue;
+
+}
+.w
+{
+	position: absolute;
+	top:520px;
+	left:804px;
+}
+.w1
+{
+	position: absolute;
+	top:482px;
+	left:1034px;
+	width: 130px;
+	font-size: 70%;
+}
+.a123
+{
+	background-color: blue;
+}
